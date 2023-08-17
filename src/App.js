@@ -43,19 +43,4 @@ const styles = StyleSheet.create({
     backgroundColor: "#191919"
   }
 });
-
-// const buttonStyles = StyleSheet.create({
-//   button: {
-//     backgroundColor: "#2196F3",
-//     borderRadius: 2
-//   },
-//   text: {
-//     color: "#fff",
-//     fontWeight: "500",
-//     padding: 8,
-//     textAlign: "center",
-//     textTransform: "uppercase"
-//   }
-// });
-
 export default App;
