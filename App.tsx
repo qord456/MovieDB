@@ -10,12 +10,17 @@ import {ScrollView} from 'react-native';
 import TopHeader from './src/components/TopHeader';
 import Styles from './src/utils/Styles';
 import Genres from './src/components/Genres';
+// import MovieList from './src/components/MovieList';
+import Movies from './src/components/MovieList copy';
+
 
 function App() {
   return (
     <ScrollView style={Styles.allcoverage}>
       <TopHeader />
       <Genres />
+      {/* <MovieList/> */}
+      <Movies/>
     </ScrollView>
   );
 }

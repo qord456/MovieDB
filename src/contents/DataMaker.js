@@ -13,7 +13,6 @@ const GetData = () => {
     })
       .then(response => {
         setData(response.data.genres);
-        console.log("ini data dari data maker------",response.data.genres)
       })
       .catch(err => console.log('error message: ', err));
   }, []);

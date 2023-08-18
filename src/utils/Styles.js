@@ -7,23 +7,25 @@ const Styles = StyleSheet.create({
     maxWidth: 500,
   },
   topHeader: {
-    margin: 10,
     padding: 30,
     alignItems: 'center',
-    borderBottomWidth: 5,
-    borderBottomColor: '#f1c40f',
+    
   },
   topHeaderA: {
     color: '#ecf0f1',
     marginHorizontal: 10,
-    fontSize: 30,
+    fontSize: 40,
     fontWeight: 'bold',
   },
   topHeaderB: {
     color: '#e74c3c',
     marginHorizontal: 10,
-    fontSize: 30,
+    fontSize: 40,
     fontWeight: 'bold',
+  },
+  scrollView: {
+    height: 200, 
+    width: '100%',
   },
   genres: {
     fontSize: 20,
@@ -32,16 +34,18 @@ const Styles = StyleSheet.create({
     borderWidth: 3,
     borderRadius: 5,
     marginHorizontal: 5,
+    marginVertical: 15,
     paddingHorizontal: 15,
     paddingVertical: 10,
   },
   genreScrolDirection: {
     flexDirection: 'row',
     alignItems: 'center',
+    marginHorizontal: 10,
   },
   genreFlex: {
     flexDirection: 'row',
-    flexWrap: 'wrap',margin: 5,
+    flexWrap: 'wrap',
   },
   textCat1: {
     fontSize: 20,
