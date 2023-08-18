@@ -18,7 +18,6 @@ function App() {
     <ScrollView style={Styles.allcoverage}>
       <TopHeader />
       <Genres />
-      <Movies />
     </ScrollView>
   );
 }

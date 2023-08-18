@@ -1,22 +1,22 @@
 import Axios from "axios";
 import { useState, useEffect } from "react";
 
-const MovieData = (urlMovie) => {
-  const [data, setData] = useState([]);
+const GetRating = (url) => {
+  const [rating, setRating] = useState([]);
   useEffect(() => {
     const api_key = "c3a64cc75bbef9802227edf7017e0363";
-    Axios.get(urlMovie, {
+    Axios.get(url, {
       params: {
         api_key: api_key
       }
     })
       .then((response) => {
-        setData(response.data.results);
+        setRating(response.data);
       })
       .catch((err) => console.log("error message: ", err));
   });
 
-  return data;
+  return rating;
 };
 
-export default MovieData;
+export default GetRating;
